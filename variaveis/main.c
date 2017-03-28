@@ -3,11 +3,25 @@
 
 int main()
 {
-    int numeroInteiro = 10; // tipo que retorna apenas números reais
-    printf("variavel inteira: %d", numeroInteiro);
+    /*
+     Para retornar o valor de uma variável é usado o método "printf" que retorna uma string, junto dela uma referência, que poder ser
+        %d - para variaveis inteiras
+        %f - para variaveis reais
+        %c - para variaveis de tipo caracter
+        %s - para uma cadeia de caracteres
+    */
 
-    float numeroReal = 5.3; // Números reais em linguagens de programação é usado a notação de . no lugar da virgula de decimais
-    printf("\nvariavel real %f", numeroReal);
+    int i = 10; // número inteiro
+    printf("\nNumero inteiro: %i", i);
+
+    float f = 2.4; // número real: 5.4
+    printf("\nNumero real: %f", f);
+
+    char c = "n"; // armazena um caracter.
+    printf("\nCaracter: %c", c);
+
+    char name[10] = "Deglier"; // armazena uma cadeia de caracteres
+    printf("\nCadeia de caracteres: %s", name);
 
     return 0;
 }

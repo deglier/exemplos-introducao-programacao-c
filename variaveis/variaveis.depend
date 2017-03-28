@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490720008 source:/home/degliersa/projetos/estudos/Introdução a Programação/variaveis/main.c
+	<stdio.h>
+	<stdlib.h>
+
